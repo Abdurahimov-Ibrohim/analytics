@@ -1,0 +1,99 @@
+footer{
+    margin-top: 73px;
+    background: url(../images/background-bottom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .images1{
+        margin-top: 42px;
+        img{
+            min-width: 100%;  
+            }
+        }
+        .images2{
+            display: none;
+        }
+    }
+.pricing{
+    h2{
+        color: #FFFFFF;
+        padding-top: 132px;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    p{
+        margin-top: 20px;
+        color: #8794BA;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+    }
+}
+.splitter{
+    display: flex;
+    border-top: 3px solid #2A407C;
+    justify-content: space-between;
+    padding: 45px 0px 45px 0px;
+    ul{
+        display: none;
+    }
+    .images33{
+        display: flex;
+        gap: 40px;
+    }
+}
+@media screen and (min-width:1600px){
+    footer{
+        margin-top: 114px;
+        background: url(../images/background-bottom.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        .images1{
+            display: none;
+        }
+        .images2{
+            display: block;
+            text-align: center;
+        }
+    }
+    .pricing{
+        padding-top: 272px;
+        padding-bottom: 80px;
+        h2{
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        p{
+            text-align: center;
+            margin-top: 30px;
+            color: #8794BA;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+        }
+    }
+    .splitter{
+        margin-top: 50px;
+        padding: 69px 0px 100px 0px;
+        ul{
+            display: flex;
+            gap: 36px;
+        }
+    }
+    a{
+        color: #8794BA;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: normal;  
+    }
+}
